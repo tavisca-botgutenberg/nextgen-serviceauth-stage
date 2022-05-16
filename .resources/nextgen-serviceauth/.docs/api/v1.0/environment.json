@@ -1,0 +1,16 @@
+{
+  "environments": [
+    {
+      "baseUrl": "https://private-nextgen-serviceauth.qa.cnxloyalty.com",
+      "type": "qa"      
+    },
+    {
+      "baseUrl": "https://private-nextgen-serviceauth.stage.cnxloyalty.com",
+      "type": "stage"      
+    },
+    {
+      "baseUrl": "https://private-nextgen-serviceauth.cnxloyalty.com",
+      "type": "prod"      
+    }
+  ]
+}
