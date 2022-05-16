@@ -1,0 +1,20 @@
+# Get Roles Mapped To Application [/nextgeniam/api/v1.0/applications/{applicationId}/clientRoles]
+ 
+## Get Roles Mapped To Application [GET]
+ 
++ Parameters
+    + applicationId: `1234567` (string) - Application id of the application.
+ 
++ Request getRolesMappedToApplicationReq (application/json)
+    + Headers
+      Content-Type: application/json
+      Cnx-CorrelationId: test
+      Cnx-TenantId: 2o9o3ae99ts
+      Authorization: Bearer Token
+   
+ 
++ Response 200 (application/json)
+    + Headers
+      Content-Type: application/json
+      Cnx-CorrelationId: test     
+    + Attributes (array [getRolesMappedToApplicationResponse], fixed-type)
