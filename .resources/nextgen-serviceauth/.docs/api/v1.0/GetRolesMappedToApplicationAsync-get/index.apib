@@ -4,9 +4,9 @@
 ## Get roles mapped to an application [GET]
  
 + Parameters
-    + applicationId: `01i052ghbkmwz` (string) - Application id of the application.
-    + pageNumber: 1 (number) - Page number.
-    + pageSize: 1 (number) - Page size.
+    + applicationId: `01i052ghbkmwz` (string, required) - Application id of the application.
+    + pageNumber: 1 (number, optional) - Page number.
+    + pageSize: 1 (number, optional) - Page size.
    
  
 + Request getRolesMappedToApplicationReq (application/json)
@@ -21,4 +21,4 @@
     + Headers
       Content-Type: application/json
       cnx-correlationId: ab400bf5-7e20-481d-ae8a-be3ec12f0514 
-    + attributes (array [getRolesMappedToApplicationResponse], fixed-type)
+    + attributes (getRolesMappedToApplicationResponse)
