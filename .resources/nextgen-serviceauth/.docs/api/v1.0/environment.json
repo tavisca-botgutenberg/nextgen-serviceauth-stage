@@ -2,15 +2,18 @@
   "environments": [
     {
       "baseUrl": "https://private-nextgen-serviceauth.qa.cnxloyalty.com",
-      "type": "qa"      
+      "type": "qa",
+      "isAuthorized": true      
     },
     {
       "baseUrl": "https://private-nextgen-serviceauth.stage.cnxloyalty.com",
-      "type": "stage"      
+      "type": "stage",
+      "isAuthorized": true
     },
     {
       "baseUrl": "https://private-nextgen-serviceauth.stage.cnxloyalty.com",
-      "type": "prod"      
+      "type": "prod" ,
+      "isAuthorized": true
     }
   ]
 }
