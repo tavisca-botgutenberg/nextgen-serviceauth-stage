@@ -1,14 +1,5 @@
 ## tokenRequest
 
-
-+ grant_type: 'client_credentials' (string) - Provide grant type. Available options are authorization_code, password and client_credentials.
-+ scope: 'openid' (string) - Provide the scope.
-+ username: 'View User' (string, optional) - Provide username.
-+ password: '[x<J4,V_tFd?*t66' (string, optional) - Provide password.
-+ code: 'OSCUGEAgVbZW4uINtLOR1DRmlw6e403lue2jPvmp5qs&scope=openid&session_state=nm26FI7607j8rcH4C0oSVp6Hf-oMEZ0-ltFpWAGrQeo.QAn1QmyfHKLzajpeOga5Xw' (string, optional) - Provide code.
-+ redirect_uri: `https://nextgen-serviceauth.stage.cnxloyalty.com` (string) - Url to which request will be redirected.
-+ client_secret: '8xZcO74GEfFLFzk8X08t0twtUdKvfESP6zQ0OxFsxee' (string, optional) - Provide client secret.
-+ client_id: 'd58596a5a73740b8968b1d0d664018ww' (string, optional) - Provide client id.
-+ code_verifier: '4ttyyy567' (string, optional) - Provide code verifier as optional.
-+ refresh_token: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjA5MzkwMkEwMDc4OEZGNDBDNEZCRTE3RTNBODVGRkIyMUIwQTYwNEMiLCJ0eXAiOiJKV1QifQeyJuYmYiOjE2NTMwNDkwMjIsImV4cCI6MTY1MzA1MjYyMiwiaWF0IjoxNjUzMDQ5MDIyLCJpc3MiOiJodHRwczovL25leH' (string, optional)  - Provide refresh token.
-
++ grant_type: `client_credentials` (string) - It should be client_credentials.
++ scope: 'openid' (string) - The supported scopes are openid and context_app:<ApplicationId>.
++ redirect_uri: `https://nextgen-serviceauth.stage.cnxloyalty.com` (string) - URL to which request will be redirected.
